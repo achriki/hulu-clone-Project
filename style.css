@@ -393,7 +393,7 @@ h1{
     width: 80%;
     font-size: 14px;
 }
-.channel-modal .modal-box .btn-close{
+.channel-modal .modal-box .btnClose{
     width: 25px;
     height: 25px;
     position: absolute;
