@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@200;300;400;500;600&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    overflow-x: hidden;
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.7;
+}
+
+/* common style */
+
+.btn{
+    padding: 15px 32px;
+    font-weight: bolder;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 0.25rem;
+}
+ul{
+    list-style: none;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+
+h4{
+    color: #63BF93;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+.header-text-1{
+    font-size: 22px;
+    font-weight: bold;
+}
+.header-text-2{
+    margin: 25px 0;
+    font-size: 18px;
+}
+.header-text-3{
+    font-size: 10px;
+    font-weight: lighter;
+    color: #ADB5BD;
+}
+.header-text-3 a{
+    color: #ADB5BD;
+    text-decoration: underline;
+}
+
+/* header section */
+
+.header{
+    height: 710px;
+    background: url(./img/header.jpg) no-repeat center center / cover;
+}
+.header .logo{
+    width: 260px;
+    margin: 20px 0;
+}
+.navbar{
+    display: flex;
+    flex-direction: row-reverse;
+    background: linear-gradient(180deg, rgba(0,0,0,0.76) 40.54%, rgba(0,0,0,0.192) 90.39%, rgba(0,0,0,8e-05) 100%);
+}
+.navbar .btn-login{
+    padding: 24px 45px;
+    background: none;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.navbar .btn-login:hover{
+    transition: 0.5s;
+    color: #ADB5BD;
+}
+.headerContainer{
+    margin-top: 50px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerContainer .btn-register{
+    border: .5px transparent;
+    background: #fff;
+}
+.headerContainer .btn-register:hover{
+    transition: .3s ease;
+    opacity: 0.7;
+}
+.headerContainer .header-text-3{
+    margin-top: 20px;
+}
+.subHeaderContent{
+    background:linear-gradient(160deg, rgba(0,0,0,0.5) 50.54%, rgba(0,0,0,0.5) 70.23%) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    padding: 25px;
+}
+.subHeaderContent .container{
+    display: flex;
+    
+}
+.subHeaderContent .container .logos{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 70%;
+}
+.subHeaderContent .container .logos .header-text-3{
+    text-decoration: underline;
+}
+.subHeaderContent .container .logos .logos-img{
+    width: 30%;
+    margin-right: 2%;
+}
+.subHeaderContent .container .DisneyOffer{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.subHeaderContent .container .btn-disney{
+    background: transparent;
+    border: 3.75px solid #fff;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* stream section */
+
+.stream-section .container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 0;
+}
+.stream-section .container .stream-content{
+    text-align: center;
+}
+.stream-section .container .stream-content .description{
+    display: flex;
+    justify-content: center;
+}
+.stream-section .container .stream-content .description .header-text-2{
+    width:80%;
+    font-size: 22px;
+}
+.stream-covers{
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 15px;
+}
+.stream-covers .cover-detail{
+    height: 490px;
+    width: 295px;
+    background-blend-mode: darken;
+}
+.cover-detail .desc{
+    padding: 15px 25px;
+}
+.cover-detail .desc h3{
+    font-size: 15px;
+}
+.stream-covers .cover-detail.cover1{
+    background:  url(./img/cover-1.jpg) no-repeat center center / cover , rgba(0,0,0,0.4) ;
+}
+.stream-covers .cover-detail.cover2{
+    background: url(./img/cover-2.jpg) no-repeat center center / cover , rgba(0,0,0,0.4);
+}
+
+.stream-covers .cover-detail.cover3{
+    background: url(./img/cover-3.jpg) no-repeat center center / cover , rgba(0,0,0,0.4);
+}
+.stream-covers .cover-detail.cover4{
+    background: url(./img/cover-4.jpg) no-repeat center center / cover, rgba(0,0,0,0.4);
+}
+.stream-section .container .stream-footer-text{
+    width: 65%;
+    display: flex;
+    justify-content: flex-end;
+}
+.stream-section .container .stream-footer-text .header-text-3{
+    padding-right: 2%;
+    margin-top: 10px;
+}
+
+/* live tv section */
+
+.live-tv-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #151516;
+}
+.live-tv-section .container {
+    padding:  4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.live-tv-section .container .description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.live-tv-section .container .description .header-text-2{
+    width: 50%;
+    font-size: 22px;
+    margin: 25px;
+    letter-spacing: .70px;
+}
+
+.live-tv-section .container .btn-check-area{
+    margin: 25px 0;
+    font-weight: lighter;
+    text-decoration: underline;
+}
+.live-tv-section .container .btn-move{
+    cursor: pointer;
+    background: transparent;
+    border: 0px;
+    color: #fff;
+    font-size: 25px;
+    animation-name: up-down-move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+/* tv-content section */
+
+.tv-content{
+    height: 800px;
+    background: url(./img/live-sports.jpg) no-repeat center center / cover;
+    position: relative;
+}
+.tv-content .container{
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    max-width: 550px;
+}
+
+.description{
+    display: flex;
+    align-items: center;
+}
+.description .header-text-2{
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.live-sport-logos{
+    width: 300px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.live-sport-logos img{
+    width: 40px;
+}
+.live-sport-logos > div{
+    background: url(./img/network-logo-bg.png) no-repeat center center/cover;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tv-content .header-text-3{
+    margin-top: 35px;
+}
+.tv-content::after{
+    background: linear-gradient(180deg, rgba(0,0,0,0.76) 40.54%, rgba(0,0,0,0.192) 90.39%, rgba(0,0,0,8e-05) 100%);
+}
+.loginModal{
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0,0,0,0.4);
+}
+.modal-box{
+    margin: 5% auto;
+    color: #333;
+    width: 430px;
+    background: #fff;
+    position: relative;
+    animation: modal-animation 1s;
+}
+.modal-box .modal-body{
+    padding: 17% 35px;
+}
+.modal-box .modal-body h3{
+    font-size: 26px;
+    font-weight: 400;
+}
+.modal-body a{
+    font-size: 14px;
+    color: #0077B6;
+}
+.modal-body .form-control{
+    margin: 20px 0;
+}
+.modal-body .form-control label{
+    color: #ADB5BD;
+    font-size: 13px;
+    letter-spacing: 1px;
+    display: block;
+    text-transform: uppercase;
+}
+.modal-body .form-control input{
+    width: 100%;
+    padding: 14px;
+    border: .5px solid;
+    border-radius: 0.25rem;
+}
+.modal-box .modal-footer{
+    color: #ADB5BD;
+    font-weight: lighter;
+    padding: 30px 0;
+    text-align: center;
+}
+.modal-box .modal-footer a{
+    color:steelblue;
+}
+.modal-box .btn-close{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+.modal-body .btn-dark{
+    margin: 30px 0;
+    width: 100%;
+    color: #fff;
+    background: #333;
+    border: .5px solid ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@keyframes up-down-move {
+    50%{
+        transform: translateY(10px);
+        transition: .4s;
+    }
+    100%{
+        transform: translateY(-10px);
+        transition: .4s;
+    }
+}
+@keyframes modal-animation{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
