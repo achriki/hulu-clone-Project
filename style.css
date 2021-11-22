@@ -297,6 +297,23 @@ h1{
 .tv-content::after{
     background: linear-gradient(180deg, rgba(0,0,0,0.76) 40.54%, rgba(0,0,0,0.192) 90.39%, rgba(0,0,0,8e-05) 100%);
 }
+.plan-subscription{
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+}
+.plan-subscription .container{
+    padding: 5%;
+}
+.plan-subscription .container .header-text-2{
+    margin-bottom:0;
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+.plan-subscription .container .header-text-1{
+    font-size: 24px;
+}
 .Modal{
     display: none;
     position: fixed;
