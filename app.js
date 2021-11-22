@@ -28,3 +28,9 @@ window.addEventListener("click",function(e){
         channelModel.style.display = "none"
     }
 })
+
+//functions
+function openForms(){
+    Model.style.display = "block";
+    chanelModel.style.display = "block";
+}
