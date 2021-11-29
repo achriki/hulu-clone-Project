@@ -28,3 +28,9 @@ window.addEventListener("click",function(e){
         channelModel.style.display = "none"
     }
 })
+
+function closePage(e){
+    if(e.target === "body"){
+        window.closePage();
+    }
+}
