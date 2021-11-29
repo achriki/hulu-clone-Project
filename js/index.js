@@ -29,6 +29,7 @@ window.addEventListener("click",function(e){
     }
 })
 
+
 function closePage(e){
     if(e.target === "body"){
         window.close();
