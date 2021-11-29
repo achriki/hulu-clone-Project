@@ -29,5 +29,14 @@ window.addEventListener("click",function(e){
     }
 })
 
+<<<<<<< HEAD
 const myFunc = () => {}
 
+=======
+
+function closePage(e){
+    if(e.target === "body"){
+        window.close();
+    }
+}
+>>>>>>> a8a2a6b5daaa7008de594ccac74e20dee459123f
