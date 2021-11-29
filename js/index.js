@@ -32,6 +32,5 @@ window.addEventListener("click",function(e){
 function closePage(e){
     if(e.target === "body"){
         window.close();
-        console.log("this code is for closing the window when we hit the target")
     }
 }
