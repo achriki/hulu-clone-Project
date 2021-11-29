@@ -28,4 +28,6 @@ window.addEventListener("click",function(e){
         channelModel.style.display = "none"
     }
 })
+
 const myFunc = () => {}
+
