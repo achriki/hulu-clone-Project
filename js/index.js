@@ -36,3 +36,10 @@ function closePage(e){
         window.close();
     }
 }
+
+// return btn value
+const valueOfButton = ()=>{
+    return document.querySelector('.btn-submit').value
+}
+
+module.valueOfButton
